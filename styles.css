@@ -29,7 +29,7 @@ h1 {
 }
 
 
-p {
+/* p {
   margin: 20px;
   padding: 20px;
   display: inline-block;
@@ -43,4 +43,18 @@ span {
   margin: 20px;
   padding: 20px;
   display: inline-block;
+} */
+
+
+div {
+  color: blue;
+}
+
+div p {
+  color: green;
+}
+
+
+p {
+  color: yellow;
 }
