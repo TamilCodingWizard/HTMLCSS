@@ -1,60 +1,70 @@
-h1 {
-    
-    /* border: 5px solid red; */
+ body {
+  margin:0;
+  padding: 0;
+ }
 
-    /* padding-left: 15px;
-    padding-top: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px; */
-
-    /*
-      3 Values
-      20px - top
-      15px - right and left
-      20px - bottom
-
-    */
-
-    /*
-        4 values
-        1st - top
-        2nd - right
-        3rd - bottpm 
-        4th - left
-
-    **/
-    /* padding: 20px 15px 20px 25px;
-
-    margin: 20px; */
+/* Header */
+header {
+  position: fixed;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+  text-align: center;
+  z-index: 1;
 }
 
+header img {
+  height: 45px;
+}
 
-/* p {
-  margin: 20px;
+/* Banner Section */
+
+.banner img {
+  width: 100%;
+  height: 100%;
+}
+
+.banner h2 {
+  position: absolute;
+  top:30%;
   padding: 20px;
+  background-color: rgba(0,0,0,0.5294117647058824) ;
+  border-radius: 5px;
+  color: white;
+  left: 20px;
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+}
+
+.banner h2 span {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+/* Navigation links */
+
+nav {
+  background-color: lightgray;
+  position: sticky;
+  top:85px
+}
+
+nav li {
   display: inline-block;
-  width: 200px;
-  height:100px;
-  overflow:auto;
+  width: 25%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: #17406c;
+}
+
+nav ul {
+  white-space: nowrap;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 
-span {
-  margin: 20px;
-  padding: 20px;
-  display: inline-block;
-} */
-
-
-div {
-  color: blue;
-}
-
-div p {
-  color: green;
-}
-
-
-p {
-  color: yellow;
-}
