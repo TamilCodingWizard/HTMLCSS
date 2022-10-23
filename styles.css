@@ -170,3 +170,59 @@ hr {
   margin: 0 auto;
 }
 
+/* Break points */
+
+/*xs / small - 576 px
+medium - 768px
+large - 992 px
+xl - 1200px
+xxl - 1400px
+*/
+
+@media screen and (max-width:720px) {
+   header {
+    position: static;
+    background-color: transparent;
+   }
+
+   .banner h2 {
+    position: static;
+    border-radius: 0;
+    margin:0;
+    font-size: 0.95em;
+   }
+
+   nav li {
+    display: block;
+    line-height: 3px;
+   }
+
+   nav {
+    top:0
+   }
+
+   article ul li {
+    display: block;
+    width: 100%;
+   }
+
+   .states-list {
+    column-count: 2;
+   }
+}
+
+
+@media screen and (max-width:992px){
+  header {
+    background-color: transparent;
+    position: static;
+  }
+
+  nav {
+    top:0px;
+  }
+
+  .banner h2 {
+    font-size: 1.1em;
+  }
+}
